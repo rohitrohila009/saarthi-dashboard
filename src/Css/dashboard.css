@@ -4,9 +4,19 @@
 }
 .wrap_code {
   text-align: center;
+  content: "";
+  background: url("https://saarthi-drag-drop-games.web.app/assets/logo.jpg");
+  opacity: 0.5;
+  top: 30px;
+  left: 351px;
+  bottom: 0px;
+  right: 350px;
+  position: absolute;
+  z-index: -1;
 }
-.wrap_code img {
-  width: 440px;
-  height: 440px;
-  opacity: 0.6;
+.opc {
+  opacity: 0.9;
+}
+.fontWht {
+  margin: 15px;
 }

@@ -39,3 +39,7 @@
 /* body {
   background-image: url("https://saarthi-drag-drop-games.web.app/assets/logo.jpg") ;
 } */
+
+.navbarr {
+  background-image: linear-gradient(to right, #33ccff, #ff99cc);
+}

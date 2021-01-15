@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react';
+import React, {component} from 'react';
 import {Route, Switch} from'react-router-dom'
 import Dashboard from './Components/dashboard'
 import ParentManage from './Components/parentManage'
@@ -16,9 +16,9 @@ function App()   {
 
   return (
     <div>
-  <nav className="navbar navbar-expand-sm navbar-light" style={{backgroundColor:'lightblue'}}>
+  <nav className="navbar navbar-expand navbar-light navbarr" style={{backgroundColor:'lightblue'}}>
   <a className="navbar-brand" >
-      <img src="https://saarthi-drag-drop-games.web.app/assets/logo.jpg" className="logoImg"/>
+      <img src="https://saarthi-drag-drop-games.web.app/assets/logo.jpg" className="logoImg" alt="no"/>
   </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
