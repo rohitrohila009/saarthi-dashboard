@@ -34,12 +34,15 @@ function App()   {
     </div>
   </div>
 </nav>
+
 <Switch>
       <Route path="/dashboard" component={Dashboard}/>
          <Route path="/parentManagement" component={ParentManage}/>
          <Route path="/RM_Management" component={RM_Management}/>
       </Switch>
-      </div>
+
+</div>
+
      
       
   );

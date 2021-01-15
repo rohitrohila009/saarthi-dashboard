@@ -8,8 +8,9 @@ class Dashboard  extends Component {
     }
     render() { 
         return ( 
-           <div className="container backgImg">
-             <div className="row">
+           <div className="container">
+             
+             <div className="row m-2">
                <div className="col-6 border bg-danger">
                  Pending Enrollments
                  <span  style={{float:'right'}}>20</span>
@@ -61,6 +62,13 @@ class Dashboard  extends Component {
                 Done
                </div>
                </div>
+               <div className="row">
+                 <div className="col-12 text-center wrap_code ">
+                 <img src="https://saarthi-drag-drop-games.web.app/assets/logo.jpg"/>
+
+                 </div>
+
+             </div>
            </div>
           );
     }
